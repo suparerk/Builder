@@ -1,4 +1,4 @@
-@LeftSidbar = React.createClass
+LeftSidbar = React.createClass
   drawCanvas: (e) ->
     image = e.target.src
     c = document.getElementById('Dwrap')
@@ -30,3 +30,5 @@
               src: 'https://hd.unsplash.com/photo-1465281508053-aee07fc08957'
               id: 'image2'
               onClick: @drawCanvas
+
+@Left = React.createFactory(LeftSidbar)

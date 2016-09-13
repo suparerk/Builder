@@ -9,7 +9,7 @@
   render: ->
     React.DOM.div
       className: 'campaigns Container'
-      React.createElement LeftSidbar
+      React.createElement Left
       React.DOM.div
         className: 'Main'
         React.DOM.h2
@@ -41,4 +41,4 @@
             className: 'textvalue'
             id: 'DescValue'
             'This is your description:'
-      React.createElement RightSidbar
+      React.createElement Right
